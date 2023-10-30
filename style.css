@@ -2,3 +2,20 @@
   margin: 0;
   padding: 0;
 }
+
+.header {
+  width: 900px;
+  height: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.head {
+  display: inline;
+  font-family: "Dancing Script", cursive;
+}
+
+.center {
+  background-color: aquamarine;
+}
