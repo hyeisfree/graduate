@@ -16,6 +16,24 @@
   font-family: "Dancing Script", cursive;
 }
 
-.center {
-  background-color: aquamarine;
+.dot {
+  margin-right: 60px;
+}
+
+.past {
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+}
+
+.present {
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+}
+
+.future {
+  display: flex;
+  justify-content: center;
+  margin: 5px;
 }
