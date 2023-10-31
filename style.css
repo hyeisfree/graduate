@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+.body {
+  background-color: #efefef;
+}
+
 .header {
   width: 900px;
   height: 30px;
@@ -39,5 +43,44 @@
 }
 
 .footer {
+  width: 420px;
   display: flex;
+  justify-content: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.like,
+.write {
+  margin-right: 5px;
+}
+
+.comment {
+  font-size: small;
+}
+
+.footer2 {
+  width: 580px;
+  display: flex;
+  justify-content: center;
+}
+
+.past1 {
+  width: 150px;
+  height: 150px;
+}
+
+.past2 {
+  width: 150px;
+  height: 150px;
+}
+
+.past3 {
+  width: 150px;
+  height: 150px;
+}
+
+.present1 {
+  width: 150px;
+  height: 150px;
 }
