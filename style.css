@@ -65,22 +65,15 @@
   justify-content: center;
 }
 
-.past1 {
-  width: 150px;
-  height: 150px;
-}
-
-.past2 {
-  width: 150px;
-  height: 150px;
-}
-
-.past3 {
-  width: 150px;
-  height: 150px;
-}
-
-.present1 {
+.past1,
+.past2,
+.past3,
+.present1,
+.present2,
+.present3,
+.future1,
+.future2,
+.future3 {
   width: 150px;
   height: 150px;
 }
