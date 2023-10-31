@@ -7,6 +7,19 @@
   background-color: #efefef;
 }
 
+.past1,
+.past2,
+.past3,
+.present1,
+.present2,
+.present3,
+.future1,
+.future2,
+.future3 {
+  width: 150px;
+  height: 150px;
+}
+
 .header {
   width: 900px;
   height: 30px;
@@ -55,7 +68,7 @@
   margin-right: 5px;
 }
 
-.comment {
+.like_comment {
   font-size: small;
 }
 
@@ -65,15 +78,11 @@
   justify-content: center;
 }
 
-.past1,
-.past2,
-.past3,
-.present1,
-.present2,
-.present3,
-.future1,
-.future2,
-.future3 {
-  width: 150px;
-  height: 150px;
+.comment {
+  font-size: small;
+  margin: 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 185px;
 }
