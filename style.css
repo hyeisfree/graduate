@@ -7,6 +7,66 @@
   background-color: #efefef;
 }
 
+.past .image-container {
+  position: relative;
+}
+
+.past .image-container .caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 12px;
+  opacity: 0;
+  font-weight: bold;
+  transition: all 0.5s ease;
+}
+
+.past .image-container:hover .caption {
+  opacity: 1;
+}
+
+.present .image-container {
+  position: relative;
+}
+
+.present .image-container .caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 12px;
+  opacity: 0;
+  font-weight: bold;
+  transition: all 0.5s ease;
+}
+
+.present .image-container:hover .caption {
+  opacity: 1;
+}
+
+.future .image-container {
+  position: relative;
+}
+
+.future .image-container .caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 12px;
+  opacity: 0;
+  font-weight: bold;
+  transition: all 0.5s ease;
+}
+
+.future .image-container:hover .caption {
+  opacity: 1;
+}
+
 .past1,
 .past2,
 .past3,
