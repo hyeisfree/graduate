@@ -129,6 +129,8 @@
 }
 
 .like_comment {
+  display: inline;
+  font-family: "Dancing Script", cursive;
   font-size: small;
 }
 
@@ -139,6 +141,8 @@
 }
 
 .comment {
+  display: inline;
+  font-family: "Dancing Script", cursive;
   font-size: small;
   margin: 2px;
   display: flex;
